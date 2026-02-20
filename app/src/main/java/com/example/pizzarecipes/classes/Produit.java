@@ -17,6 +17,17 @@ public class Produit {
         this.id = AUTO_ID++;
     }
 
+    public Produit(String nom, double prix, int imageRes, String duree, String ingredients, String description, String etapes) {
+        this.id = AUTO_ID++;
+        this.nom = nom;
+        this.prix = prix;
+        this.imageRes = imageRes;
+        this.duree = duree;
+        this.ingredients = ingredients;
+        this.description = description;
+        this.etapes = etapes;
+    }
+
     public Produit(long id, String nom, double prix, int imageRes, String duree, String ingredients, String description, String etapes) {
         this.id = AUTO_ID++;
         this.nom = nom;

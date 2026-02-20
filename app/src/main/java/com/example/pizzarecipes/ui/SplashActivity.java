@@ -11,17 +11,16 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-    }
 
-    // KHASSNA CLASSE DYAL ListPizzaActivity
-
-    Thread t = new Thread(() -> {
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException ignored) {}
-        startActivity(new Intent(SplashActivity.this, ListPizzaActivity.class));
-        finish();
-    });
+        // KHASSNA CLASSE DYAL ListPizzaActivity : ZDTHA
+        Thread t = new Thread(() -> {
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException ignored) {
+            }
+            startActivity(new Intent(SplashActivity.this, ListPizzaActivity.class));
+            finish();
+        });
         t.start();
-
+    }
 }

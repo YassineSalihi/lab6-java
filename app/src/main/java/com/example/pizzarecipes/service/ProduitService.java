@@ -23,12 +23,12 @@ public class ProduitService implements IDao<Produit> {
 
     private void seed() {
         data.add(new Produit("BARBECUED CHICKEN PIZZA", 3.0,
-                com.example.pizzarecipes.R.drawable.pizza1, "35 min",
+                com.example.pizzarecipes.R.mipmap.pizza1, "35 min",
                 "- 2 boneless skinless chicken breast halves\n- 1 cup barbecue sauce...",
                 "Pizza au poulet barbecue simple et rapide.",
                 "STEP 1: Griller le poulet.\nSTEP 2: Garnir et cuire."));
         data.add(new Produit("SPINACH PIZZA", 2.0,
-                com.example.pizzarecipes.R.drawable.pizza2, "25 min",
+                com.example.pizzarecipes.R.mipmap.pizza2, "25 min",
                 "- Sauce Alfredo, épinards, tomates, fromage.",
                 "Pizza crémeuse et légère aux légumes.",
                 "STEP 1: Étaler la pâte.\nSTEP 2: Ajouter la garniture."));
@@ -69,4 +69,3 @@ public class ProduitService implements IDao<Produit> {
         return Collections.unmodifiableList(data);
     }
 }
-
