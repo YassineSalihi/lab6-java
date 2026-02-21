@@ -68,5 +68,13 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp" />
 
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRetour"
+            android:text="@string/retour"
+            android:layout_marginTop="40dp"/>
+
     </LinearLayout>
 </ScrollView>

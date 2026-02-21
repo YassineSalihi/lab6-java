@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PizzaRecipes</string>
+    <string name="retour">Retour</string>
 </resources>

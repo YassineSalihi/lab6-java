@@ -1,6 +1,7 @@
 # Lab 6 : Pizza yummy !
 
-## Demo :
+## Demo 2:
+
+https://github.com/user-attachments/assets/234ca5b8-2f74-41c1-b5af-0166c8f4dede
 
 
- https://github.com/user-attachments/assets/3854d413-2d55-4621-97cb-57e209161564

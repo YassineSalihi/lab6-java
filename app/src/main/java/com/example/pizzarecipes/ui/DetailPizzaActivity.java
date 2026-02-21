@@ -1,6 +1,7 @@
 package com.example.pizzarecipes.ui;
 
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -27,6 +28,11 @@ public class DetailPizzaActivity extends AppCompatActivity {
         TextView ingredients = findViewById(R.id.ingredients);
         TextView desc = findViewById(R.id.desc);
         TextView steps = findViewById(R.id.steps);
+
+        Button btnRetour = findViewById(R.id.btnRetour);
+        btnRetour.setOnClickListener(v -> {
+            finish(); // This closes the activity and goes back
+        });
 
         if(p != null) {
             img.setImageResource(p.getImageRes());

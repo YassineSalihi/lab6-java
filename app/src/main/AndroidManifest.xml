@@ -23,6 +23,7 @@
 
         <activity android:name=".ui.ListPizzaActivity" />
         <activity android:name=".ui.DetailPizzaActivity" />
+        <activity android:name=".classes.Screen2Activity" />
 
     </application>
 
